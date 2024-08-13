@@ -1,14 +1,141 @@
-.bot-army {
-  overflow-x: scroll;
-  min-height: 300px;
-  max-width: 100%;
+/* BotCollection Styles */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.ui.grid > .row.bot-army-row {
-  flex-wrap: nowrap;
-  min-height: 100%;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-.ui.grid {
-  padding: 0px 20px;
+.message {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* YourBotArmy Styles */
+.segment {
+  background-color: #ffcc00; /* Yellow */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* BotCard Styles */
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.image img {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+.content {
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.meta {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.extraContent {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ddd;
+}
+
+.icon {
+  font-size: 1.5em;
+}
+
+.heartbeat {
+  color: #ff69b4; /* Pink */
+}
+
+.lightning {
+  color: #ffcc00; /* Yellow */
+}
+
+.shield {
+  color: #1e90ff; /* Blue */
+}
+
+.dischargeButton {
+  background-color: #ff69b4; /* Pink */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.dischargeButton:hover {
+  background-color: #ff1493; /* Darker Pink */
+}
+
+.military {
+  
+}
+
+.shield {
+  
+}
+
+.plusCircle {
+  
+}
+
+.ambulance {
+  
+}
+
+.magic {
+  /* Add your custom styles here */
+}
+
+.star {
+  /* Add your custom styles here */
 }
